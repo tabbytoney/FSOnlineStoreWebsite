@@ -13,7 +13,7 @@ namespace Core.Entities
         public ICollection<Order> Orders { get; set; }
 
         // flag
-        public int IsDeleted { get; set; }
+        public bool IsDeleted { get; set; }
 
     }
 }
